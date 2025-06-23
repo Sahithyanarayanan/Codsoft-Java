@@ -39,7 +39,7 @@ public class ATMGUI extends JFrame implements ActionListener {
     private JLabel balanceLabel, messageLabel;
 
     public ATMGUI() {
-        account = new BankAccount(1000); // Initial balance ₹1000
+        account = new BankAccount(1000);
 
         setTitle("🏧 ATM Interface - CODSOFT");
         setSize(400, 300);
